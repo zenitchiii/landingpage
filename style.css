@@ -2,11 +2,15 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .header {
-    background-color: #002341; /* Green */
-    padding: 20px;
+    background-color: #002341;
+    padding: 0 200px;
     color: white;
-    display: flex;
 }
 
 .navbar {
@@ -14,7 +18,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .navbar a {
@@ -22,3 +26,98 @@
     text-decoration: none;
     padding: 0 15px;
 }
+
+.navbar a:hover {
+    opacity: 0.8;
+}
+
+.content {
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: #002341;
+    padding-bottom: 50px;
+}
+
+.description {
+    display: inline-block;
+    height: auto;
+    width: 400px;
+    margin-right: 150px;
+}
+
+button {
+    background-color: #0088ff;
+    border: #0088ff;
+    border-radius: 7px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.hero {
+    margin: 30px;
+}
+
+.section {
+    color: rgb(0, 0, 0);
+    padding: 15px;
+}
+
+.section .title {
+    text-align: center;
+}
+
+.heroes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #0088ff;
+    border-radius: 6px;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.caption {
+    margin-top: 8px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(236, 236, 236);
+}
+
+.quotation {
+    font-size: 60px;
+    font-style: italic;
+}
+
+.said {
+    margin-left: 1000px;
+    font-weight: bold;
+}
+
