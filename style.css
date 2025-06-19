@@ -53,6 +53,7 @@ button {
     padding: 10px 20px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }
 
 .hero {
@@ -121,3 +122,39 @@ button {
     font-weight: bold;
 }
 
+.recruit {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+
+.popup {
+    background-color: #0088ff;
+    padding: 20px 40px;
+    border-radius: 9px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.popup-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popup button {
+    border: 3px solid white;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #002341;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
